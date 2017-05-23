@@ -18,6 +18,7 @@ body{
 	background-color: #E54E79;
 	height: 50px;
 }
+
 .izq{
 	background-image: url(../img/logo-white.png);
 	background-repeat: no-repeat;
@@ -27,4 +28,29 @@ body{
 	position:relative;
 	left: 220px;
 	top: 7px;
+	display: inline-block;
+}
+
+.der{
+	width: 50%;
+	float: right;
+	margin-right: 150px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+	position: relative;
+	float: right;
+	right: 30px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
 }

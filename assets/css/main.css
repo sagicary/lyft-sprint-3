@@ -13,6 +13,7 @@ body{
 	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-attachment: fixed;
 }
 
 /*MENU*/
@@ -104,6 +105,8 @@ a:hover{
 	padding: 10px;
 	background-color: #E54E79;
 	border-radius: 12px;
+	border-right-style: none;
+	border-bottom-style: solid;
 }
 .fa-heart{
 	color:white;
@@ -111,4 +114,33 @@ a:hover{
 }
 .textoabajo{
 	font-size: 14px;
+}
+/*Parte del Play*/
+.juego{
+	background-color: #00B2A9;
+	position: relative;
+	height: 500px;
+	top: 630px;
+}
+.textojuego{
+	font-size: 30px;
+	text-transform: uppercase;
+	background-color: #EDE9E2;
+	color: #75726C;
+	width: 100%;
+	position: relative;
+	top: 50px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.autos{
+	background-color: #EDE9E2;
+	width: 900px;
+	height: 200px;
+	position: relative;
+	top: 100px;
+	left: 200px;
+	right: 200px;
 }

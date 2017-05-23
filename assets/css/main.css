@@ -14,8 +14,10 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
+/*MENU*/
 .menu{
-	background-color: #E54E79;
+	background-color: #E54E79; 
 	height: 50px;
 }
 
@@ -53,4 +55,29 @@ ul li a{
 	text-align: center;
 	padding: 20px;
 	text-decoration: none;
+}
+a:hover{
+	background-color: rgba(117,114,108,0.5);
+}
+
+/* CUADRO DEL CENTRO */
+.cuadro{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	background-color: #EDE9E2;
+	right: 0px;
+	top: 50px;
+	margin-top: 150px;
+}
+.contenido{
+	margin: 50px 50px 50px 30px;
+}
+.celeste{
+	text-transform: uppercase;
+	color: #00B2A9;
+}
+.signtext{
+	text-transform: uppercase;
+	color: #75726C;
 }

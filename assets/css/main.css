@@ -23,7 +23,9 @@ body{
 	height: 50px;
 	z-index: 2;
 }
-
+nav{
+	position: fixed;
+}
 .izq{
 	background-image: url(../img/logo-white.png);
 	background-repeat: no-repeat;
@@ -109,6 +111,8 @@ a:hover{
 	border-radius: 12px;
 	border-right-style: none;
 	border-bottom-style: solid;
+	cursor: pointer;
+	outline: 0px;
 }
 .fa-heart{
 	color:white;
@@ -139,13 +143,43 @@ a:hover{
 }
 .autos{
 	background-color: #EDE9E2;
-	width: 900px;
-	height: 200px;
+	width: 850px;
+	height: 150px;
 	position: relative;
 	top: 100px;
 	left: 200px;
 	right: 200px;
+	padding-top: 50px;
+	text-align: center;
 }
-nav{
-	position: fixed;
+.fa-car{
+	color: #75726C;
+	font-size: 30px;
+	padding-left: 10px;
+}
+#xcorde, #ycorde{
+	background-color: #EDE9E2;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 1px solid #75726C;
+	width: 320px;
+	height: 40px;
+	color: #75726C;
+}
+#xcorde:focus, #ycorde:focus{
+	outline: 0px;
+}
+.start{
+	color: white;
+	text-transform: uppercase;
+	width: 800px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #00B2A9;
+	border-radius: 12px;
+	border-right-style: none;
+	border-bottom-style: solid;
+	cursor: pointer;
+	outline: 0px;
 }

@@ -71,7 +71,7 @@ a:hover{
 	margin-top: 150px;
 }
 .contenido{
-	margin: 50px 50px 50px 30px;
+	margin: 50px 30px 50px 30px;
 }
 .celeste{
 	text-transform: uppercase;
@@ -80,4 +80,35 @@ a:hover{
 .signtext{
 	text-transform: uppercase;
 	color: #75726C;
+}
+
+/*Input del cuadro*/
+#input{
+	background-color: #EDE9E2;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 2px solid #75726C;
+	width: 90%;
+	height: 50px;
+	color: #75726C;
+}
+#input:focus{
+	outline: 0px;
+}
+.boton{
+	color: white;
+	text-transform: uppercase;
+	width: 200px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #E54E79;
+	border-radius: 12px;
+}
+.fa-heart{
+	color:white;
+	font-size: 18px;
+}
+.textoabajo{
+	font-size: 14px;
 }

@@ -257,3 +257,21 @@ a.icono:hover{
 	text-decoration: none;
 	border: none;
 }
+
+/*Prueba tablero Blanca
+
+#tablero{
+  border: 1px solid #900C3F;
+}
+.casilla{
+  box-sizing: border-box;
+  /*Es mejor con float:left*//*
+  display:inline-block;
+  background-color: #581845;
+  color: whitesmoke;
+  padding: 10px;
+  font-family: sans-serif;
+  width: 5%;
+  text-align: center;
+  border: 2px #900C3F solid;
+}*/

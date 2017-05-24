@@ -217,26 +217,43 @@ h3{
 	color: white;
 }
 .squad{
-	color: #800000;
+	color: #00B2A9;
 	font-weight: bolder;
 	text-align: center;
+	text-shadow: 1px 1px 1px white;
 }
 .lista{
 	text-decoration: none;
 	text-align: center;
 	color: white;
 }
-.abajoizq{
+.abajoi{
 	color: #EDE9E2;
 	font-size: 12px;
 	margin-left: 200px;
 	padding-top: 20px;
 	float: left;
 }
-.abajoder{
+.abajod{
 	color: #EDE9E2;
 	font-size: 12px;
 	margin-right: 200px;
 	padding-top: 20px;
 	float: right;
+}
+.fa-facebook, .fa-twitter, .fa-instagram{
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+a.icono{
+	outline: 0;
+	text-decoration: none;
+	border: none;
+	color: white;
+}
+a.icono:hover{
+    outline: 0;
+	text-decoration: none;
+	border: none;
 }

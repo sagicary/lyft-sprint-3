@@ -19,6 +19,7 @@ juego.addEventListener('click', function(){
 	x=parseInt(x);
 	y=parseInt(y);
 	console.log(x);
+	console.log(y);
 	if (isNaN(x)==true || isNaN(y)==true){
 		alert("Debes ingresar números");
 	}
@@ -27,10 +28,12 @@ juego.addEventListener('click', function(){
 	}else if(y>6){
 		alert ("Para Y debes ingresar un número entre 1 y 6");
 	}else{
-		alert("Tu valor para 'X' fue: "+x+ " Y tu valor para 'Y' fue: "+y)
+		alert("Tu valor para 'X' fue: "+x+ " Y tu valor para 'Y' fue: "+y);
+		
+		document.getElementById("ocultar").style.display = "none";
 		//Probando tablero de Blanca
-		//Defino el tablero
-/*var tablero = [
+	//Defino el tablero
+var tablero = [
   [0,0,0,0,0,0,0,0,0,0],
   [0,0,0,0,0,0,0,0,0,0],
   [0,0,0,0,0,0,0,0,0,0],
@@ -39,7 +42,7 @@ juego.addEventListener('click', function(){
   [0,0,0,0,0,0,0,0,0,0]
 ]
 //Ingreso el auto en la posicion 3,5
-tablero[x][y] = "A";
+tablero[x][y] = "<img src='assets/img/car.png' class='imagen' width='10' height='10'>";
 
 //Obtengo el div en donde se dibujará el tablero
 var divTablero = document.getElementById("tablero");
@@ -58,7 +61,6 @@ for(var i = 0; i<tablero.length; i++){
     fila.appendChild(casilla);
   }
   divTablero.appendChild(fila);
-}*/
-
+}	
 }
 });

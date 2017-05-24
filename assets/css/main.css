@@ -258,20 +258,25 @@ a.icono:hover{
 	border: none;
 }
 
-/*Prueba tablero Blanca
+/*Prueba tablero Blanca*/
 
 #tablero{
-  border: 1px solid #900C3F;
+	margin-top: 10px;
 }
 .casilla{
   box-sizing: border-box;
-  /*Es mejor con float:left*//*
+  /*Es mejor con float:left*/
   display:inline-block;
   background-color: #581845;
   color: whitesmoke;
   padding: 10px;
   font-family: sans-serif;
-  width: 5%;
+  width: 10%;
   text-align: center;
-  border: 2px #900C3F solid;
-}*/
+  border: 5px #900C3F solid;
+}
+.imagen{
+	border: none;
+	margin:0;
+	padding: 0;
+}

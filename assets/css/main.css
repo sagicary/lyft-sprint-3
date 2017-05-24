@@ -75,6 +75,9 @@ a:hover{
 	top: 50px;
 	margin-top: 150px;
 }
+.espacio{
+	height: 100px;
+}
 .contenido{
 	margin: 50px 30px 50px 30px;
 }
@@ -125,7 +128,7 @@ a:hover{
 .juego{
 	background-color: #00B2A9;
 	position: relative;
-	height: 500px;
+	height: 520px;
 	top: 630px;
 }
 .textojuego{
@@ -182,4 +185,58 @@ a:hover{
 	border-bottom-style: solid;
 	cursor: pointer;
 	outline: 0px;
+}
+/*FOOTER*/
+.fondo{
+	background-color: #75726C;
+	position: relative;
+	top: 500px;
+	height: 150px;
+}
+.linea{
+	position: relative;
+	background-color: #666666;
+	height: 50px;
+	top: 40px;
+}
+.textoizq{
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 200px;
+	color: white;
+}
+.textoder{
+	position: relative;
+	top: 20px;
+	left: 550px;
+	width: 450px;
+	color: white;
+}
+h3{
+	color: white;
+}
+.squad{
+	color: #800000;
+	font-weight: bolder;
+	text-align: center;
+}
+.lista{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+.abajoizq{
+	color: #EDE9E2;
+	font-size: 12px;
+	margin-left: 200px;
+	padding-top: 20px;
+	float: left;
+}
+.abajoder{
+	color: #EDE9E2;
+	font-size: 12px;
+	margin-right: 200px;
+	padding-top: 20px;
+	float: right;
 }

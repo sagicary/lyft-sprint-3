@@ -31,6 +31,7 @@ juego.addEventListener('click', function(){
 		alert("Tu valor para 'X' fue: "+x+ " Y tu valor para 'Y' fue: "+y);
 		
 		document.getElementById("ocultar").style.display = "none";
+		document.getElementById("play").style.display="block";
 		//Probando tablero de Blanca
 	//Defino el tablero
 var tablero = [
